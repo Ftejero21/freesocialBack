@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Verificación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+
+        .logo {
+            margin-top: 50px;
+        }
+
+
+        .logo h1 {
+            font-size: 36px;
+            color: #1A7373;
+        }
+
+        .logo h1 span {
+            color: #44C1A1;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #efefef;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .code {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888;
+        }
+        span{
+         font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <h1>Free<span>Social</span> </h1>
+    </div>
+    <p>Hola, <span>{{nombre}}</span> aquí tiene su codigo de verificación</p>
+    <div class="code">
+        {{codigo}}
+    </div>
+    <p>Si no has solicitado este PIN, te recomendamos cambiar tu contraseña.</p>
+    <p><a href="#">Cambiar contraseña</a></p>
+    <p>Si quieres proteger aún más tu cuenta, también puedes:</p>
+    <p><a href="#">Activar la verificación en dos pasos</a></p>
+    <p><a href="#">Comprobar dónde tienes activa tu sesión</a></p>
+    <p class="footer">Gracias por ayudarnos a mantener tu cuenta segura.</p>
+    <p class="footer">El equipo de FreeSocial</p>
+</div>
+</body>
+</html>
