@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class FreeSocialConstants {
     /**
-     * Constantes para los tipos de Roles
+     * Constantes para los tipos de Roles prueba
      */
     public static final Long ROL_ADMINISTRADOR = 1L;
 

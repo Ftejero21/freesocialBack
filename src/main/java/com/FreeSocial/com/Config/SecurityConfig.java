@@ -27,6 +27,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private JwtRequestFilter jwtRequestFilter;
 
+    // estatus 
+
+    // status 2
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
