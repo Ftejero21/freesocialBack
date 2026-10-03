@@ -15,6 +15,7 @@ public class CryptComponent {
     private static final String ALGORITHM = "AES";
     private static final String KEY = "sV)NvO35)L>1%aS7"; // Debe ser de 16 caracteres
 
+    // prueba de comentariodfsd
     public String encrypt(String valueToEnc) {
         try {
             Key key = generateKey();
