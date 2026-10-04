@@ -17,6 +17,7 @@ public class CryptComponent {
 
     // prueba de comentariodfsd 
     // otra prueba
+    // otra prueba 
     public String encrypt(String valueToEnc) {
         try {
             Key key = generateKey();
